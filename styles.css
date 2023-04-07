@@ -1,0 +1,452 @@
+.heading-nav{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    background-color:#7DB89F;
+    border-radius: 10px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.heading > h1{
+    font-family: sans-serif;
+    font-size: 30pt;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color:#7DB89F;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 80px;
+    padding: 10px;
+}
+
+nav > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #283820;
+    color: white;
+    font-size: 20pt;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #7DB89F;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.main-container{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.child-container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#7DB89F;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+*.caption-box{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.caption-box > p{
+    padding: 10px;
+}
+
+.audio-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #283820;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.audio-body > cite{
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#spotify{
+    border-radius: 10px;
+    border: 0;
+    height: 400px;
+}
+
+.child-container-2{
+    display: flex;
+    justify-content: center;
+    background-color: #7DB89F;
+    border-radius: 10px;
+}
+
+.child-container-2 > .wallpapers > p{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 30pt;
+}
+
+
+.wallpapers > .wp-section > .set-1 > img{
+    border-radius: 10px;
+    padding: 2px;
+    border: 3px dotted white;
+    margin: 5px;
+}
+
+.wallpapers > .wp-section > .set-2 > img {
+    border-radius: 10px;
+    padding: 2px;
+    border: 3px dotted white;
+    margin: 5px;
+}
+
+.wp-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.links{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #7DB89F;
+    border-radius: 10px;
+    height: 135px;
+    width: 100%;
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+.iconsBody{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 90px;
+    background-color: #283820;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.icons{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.videos-main-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7DB89F;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.video-caption{
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.video-caption > p {
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+.video{
+    width: 1200px;
+    height: 680px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7DB89F;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.lists{
+    background-color: #283820;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lists-child-1, .lists-child-2, .lists-child-3, .lists-child-4{
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.forms-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7DB89F;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]  {
+    color:#283820;
+}
+
+[data-tooltip]{
+    position: relative;
+}
+
+[data-tooltip]:hover::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.lists-child-1 > h3 ~ p{
+    border-bottom: 2px solid #283820;
+}
+
+.lists-child-1 > h3 + p{
+    border-top: 2px solid #283820;
+}
+
+.forms-child-container{
+    background-color: #283820;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.table-form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-image{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(assets/images/green-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#hero-intro{
+    font-size: 30pt;
+}
+
+/* Mobile Layout */
+@media screen and (min-width: 350px) and (max-width: 1000px){
+
+    .heading-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading{
+        width: 100%;
+    }
+
+    .nav{
+        margin-top: 10px;
+        width: auto;
+    }
+
+    .nav > a {
+        font-size: 9pt;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .child-container-1{
+        height: 420px;
+        margin-bottom: 10px;
+    }
+    
+    .lofi-playlist > #spotify{
+        height: 200px;
+    }
+    
+    .child-container-2 {
+        width: 100%;
+    }
+
+    .wp-section{
+        text-align: center;
+    }
+    
+    .child-container-2 > .wallpapers > p{
+        font-size: 25px;
+    }
+    
+    .wallpapers > .wp-section > .set-1 > img {
+        width: 340px;
+    }
+
+    .wallpapers > .wp-section > .set-2 > img {
+        width: 340px;
+    }
+
+    .video{
+        width: 340px;
+        height: fit-content;
+        border-radius: 10px;
+    }
+
+    .video-caption{
+        width: 250px;
+    }
+
+    .video-caption > p{
+        font-size: 10pt;
+    }
+}
+
+/* Tablet layout */
+@media screen and (min-width: 999px) and (max-width: 1300px){
+
+    .heading-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading{
+        width: 100%;
+    }
+
+    .nav > a {
+        font-size: 20pt;
+    }
+
+    .nav{
+        margin-top: 10px;
+        width: auto;
+    }
+
+    .main-container{
+        display: grid;
+        grid-template-columns: 38% auto;
+    }
+
+    .child-container-1{
+        height: 1450px;
+        width: auto;
+    }
+
+    .lofi-playlist > #spotify{
+        height: 1180px;
+    }
+
+    .child-container-2{
+        margin-left: 10px;
+        height: fit-content;
+    }
+
+    .wallpapers{
+        margin-right: 10px;
+    }
+
+    .wallpapers > .wp-section > .set-1 > img {
+        width: 580px;
+    }
+
+    .wallpapers > .wp-section > .set-2 > img {
+        width: 580px;
+    }
+
+    .wp-section{
+        text-align: center;
+    }
+
+    .video{
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .video-container > iframe{
+        height: 280px;
+    }
+
+    .video-caption > p{
+        font-size: 10pt;
+    }
+    
+}
